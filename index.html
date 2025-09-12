@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harish V- Portfolio</title>
+  <style>
+    /* General Page Style */
+    body {
+      margin: 0;
+      font-family: "Segoe UI", sans-serif;
+      color: #333;
+      background: #f9f9f9;
+    }
+
+    .container {
+      display: flex;
+      min-height: 100vh;
+    }
+
+    /* Sidebar (Left) */
+    .sidebar {
+      width: 30%;
+      background: #c8b4b4; /* pinkish shade */
+      color: white;
+      padding: 2rem;
+      box-sizing: border-box;
+    }
+
+    .sidebar .name {
+      font-size: 1.8rem;
+      margin-bottom: 0.3rem;
+    }
+
+    .sidebar .role {
+      font-style: italic;
+      margin-bottom: 1.5rem;
+    }
+
+    .sidebar h3 {
+      margin-top: 1.5rem;
+      margin-bottom: 0.5rem;
+      font-size: 1rem;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+    }
+
+    .sidebar p,
+    .sidebar a {
+      font-size: 0.9rem;
+      color: white;
+      line-height: 1.4;
+      text-decoration: none;
+    }
+
+    /* Right Content */
+    .content {
+      width: 70%;
+      background: #fff;
+      padding: 2rem 3rem;
+      box-sizing: border-box;
+    }
+
+    .content h3 {
+      margin-top: 1.5rem;
+      font-size: 1.1rem;
+      text-transform: uppercase;
+      color: #7a5c5c;
+    }
+
+    .content p,
+    .content li {
+      font-size: 0.95rem;
+      line-height: 1.5;
+    }
+
+    .content ul {
+      padding-left: 1.2rem;
+    }
+
+    /* Mobile Responsive */
+    @media (max-width: 768px) {
+      .container {
+        flex-direction: column;
+      }
+      .sidebar, .content {
+        width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+
+    <!-- LEFT SIDE -->
+    <aside class="sidebar">
+      <h2 class="name">DHARANEESH G</h2>
+      <p class="role">Student</p>
+
+      <section class="profile">
+        <h3>PROFILE</h3>
+        <p>
+          Computer science student.<br>
+          I consider myself a responsible and orderly person.<br>
+          I am looking forward to my first work experience.
+        </p>
+      </section>
+
+      <section class="contact">
+        <h3>CONTACT ME</h3>
+        <p>📞 +91 8111004309</p>
+        <p>📧 <a href="mailto:harishv24cse@vetias.ac.in">harishv24cse@vetias.ac.in</a></p>
+        <p>📍 3/144, Muniyampalayam,<br> Tiruchengode, Namakkal, Molasi</p>
+      </section>
+    </aside>
+
+    <!-- RIGHT SIDE -->
+    <main class="content">
+      <section>
+        <h3>EDUCATION</h3>
+        <p><strong>Bharathiyar University</strong></p>
+        <p>School of Computing<br>
+        VET Institute of Arts & Science (Co-Education) College</p>
+        <p><em>Bachelor of Computer Science (2024–2027)</em></p>
+      </section>
+
+      <section>
+        <h3>LANGUAGE</h3>
+        <ul>
+          <li>Native Tamil</li>
+          <li>Advanced English</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>SKILLS</h3>
+        <ul>
+          <li>Programming in C</li>
+          <li>Basic AI tools</li>
+          <li>Full stack</li>
+          <li>Python</li>
+          <li>C++</li>
+        </ul>
+      </section>
+
+      <section>
+        <h3>CERTIFICATION</h3>
+        <ul>
+          <li>Kick start your programming career with C</li>
+          <li>Smart English basic for professionals</li>
+          <li>Artificial intelligence tools in IT</li>
+        </ul>
+      </section>
+    </main>
+  </div>
+</body>
+</html>
